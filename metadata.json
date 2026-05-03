@@ -1,0 +1,5 @@
+{
+  "name": "Proactive Safety Route Recommender",
+  "description": "A safety-oriented navigation app using crowd analysis and crime data to recommend the safest routes.",
+  "requestFramePermissions": ["geolocation"]
+}

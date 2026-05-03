@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@layer utilities {
+  @keyframes poi-flicker {
+    0%, 100% { opacity: 1; transform: scale(1); filter: drop-shadow(0 0 2px currentColor); }
+    50% { opacity: 0.8; transform: scale(1.1); filter: drop-shadow(0 0 8px currentColor); }
+  }
+
+  .animate-poi-flicker {
+    animation: poi-flicker 2s infinite ease-in-out;
+  }
+}
+
+.custom-poi-icon {
+  background: transparent !important;
+  border: none !important;
+}
